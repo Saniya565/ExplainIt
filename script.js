@@ -42,10 +42,10 @@ async function getApiResponse(aiChatBox) {
 function showLoading() {
     let html = `
         <div class="image">
-            <img src="ai.webp" width="40">
+            <img src="images/ai.webp" width="40">
         </div>
         <p class="text">Loading...</p>
-        <img class="loading" src="loading.webp" alt="loading" height="50">
+        <img class="loading" src="images/loading.webp" alt="loading" height="50">
     `;
     let aiChatBox = createChatBox(html, "ai-chat-box");
     chatContainer.appendChild(aiChatBox);
@@ -70,7 +70,7 @@ btn.addEventListener("click", () => {
 
     let html = `
         <div class="image">
-            <img src="user.webp" width="55px">
+            <img src="images/user.webp" width="55px">
         </div>
         <p class="text"></p>
     `;
